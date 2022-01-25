@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_name_with_url_components",
+  "info": {
+    "displayName": "name-with-url",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_reusables_page_seos",
+  "info": {
+    "displayName": "pageSeo",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string",
+      "required": true
+    },
+    "pageDescription": {
+      "type": "text",
+      "required": true
+    },
+    "pageTags": {
+      "type": "text"
+    }
+  }
+}

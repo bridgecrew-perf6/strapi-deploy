@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolio_pages",
+  "info": {
+    "singularName": "portfolio-page",
+    "pluralName": "portfolio-pages",
+    "displayName": "PortfolioPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headerSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reusables.hero-section"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reusables.page-seo"
+    }
+  }
+}
